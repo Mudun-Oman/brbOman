@@ -338,7 +338,7 @@
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
-    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url(../img/intrd-img.jpg);
+    background: linear-gradient(rgba(0, 58, 102, 0.9), rgba(0, 58, 102, 0.8)), url(../img/header-2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: initial;
@@ -441,7 +441,7 @@
 
 /*** Counter Facts Start ***/
 .counter-facts {
-    background: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.8)), url(../img/intrd-img.jpg);
+    background: linear-gradient(rgb(255, 253, 253), rgba(255, 255, 255, 0.8)), url(../img/header-2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -481,7 +481,7 @@
     font-size: 50px;
     line-height: 90px;
     color: var(--bs-secondary);
-    background: rgba(1, 143, 252, 0.5);
+    background: rgba(29, 32, 138, 1);
     clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
 }
 .counter-facts .counter .counter-icon:before {
@@ -493,7 +493,7 @@
     left: 50%;
     transform: translateX(-50%);
     border-radius: 10px 10px 0 0;
-    background: rgba(0, 58, 102, 0.5);
+    background: rgba(29, 32, 138, 1);
     z-index: -1;
     clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);
 }
@@ -603,8 +603,15 @@
 /*** Features Start ***/
 .features .feature-item {
     position: relative;
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 45px rgba(219, 148, 148, 0.484);
     border-radius: 10px;
+    background: rgba(37, 47, 156, 0.2);
+    overflow: hidden;
+    color:black
+}
+.features .feature-item:hover {
+
+    color:white
 }
 
 .features .feature-item::after {
@@ -615,7 +622,8 @@
     bottom: 0;
     left: 0;
     border-radius: 10px;
-    background: rgba(0, 58, 102, 0.1);
+    background: rgba(13, 116, 195, 0.429);
+    color:white;
     z-index: -1;
     transition: 0.5s;
 }
@@ -632,7 +640,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: var(--bs-light);
+    background: rgb(0, 0, 150);
+    transition: 0.5s;
+}
+.features .feature-item .feature-icon i {
+    color: white !important; 
     transition: 0.5s;
 }
 
@@ -665,7 +677,7 @@
     height: 0;
     bottom: 0;
     left: 0;
-    background: rgba(0, 58, 102, 0.7);
+    background: rgba(29, 32, 138, 1);
     border-radius: 10px;
     transition: 0.5s;
     z-index: 1;
@@ -806,7 +818,7 @@
 }
 
 .training .training-item:hover .training-inner .training-title-name {
-    background: rgba(0, 58, 102, 0.5);
+    background: rgba(29, 32, 138, 1);
 }
 
 .training .training-item:hover .training-inner .training-title-name a {
@@ -845,7 +857,7 @@
 }
 
 .contact .office .office-item:hover {
-    box-shadow: 20px 20px 20px rgba(0, 58, 102, 0.3);
+    box-shadow: 20px 20px 20px rgba(29, 32, 138, 1);
 }
 
 .contact .office .office-item .office-img {
